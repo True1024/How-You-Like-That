@@ -64,51 +64,103 @@ HTMLActuator.prototype.addTile = function (tile) {
       break;
     
     case 8:
-      display = "p";
+      display = ",";
       break;
     
     case 16:
-      display = "p";
-      break;
-    
-    case 32:
-      display = "y";
-      break;
-    
-    case 64:
-      display = "B";
-      break;
-    
-    case 128:
-      display = "i";
-      break;
-    
-    case 256:
-      display = "r";
-      break;
-    
-    case 512:
-      display = "t";
-      break;
-    
-    case 1024:
       display = "h";
       break;
     
-    case 2048:
-      display = "d";
+    case 32:
+      display = "o";
       break;
     
-    case 4096:
-      display = "a";
+    case 64:
+      display = "w";
       break;
     
-    case 8192:
+    case 128:
       display = "y";
       break;
     
+    case 256:
+      display = "o";
+      break;
+    
+    case 512:
+      display = "u";
+      break;
+    
+    case 1024:
+      display = "l";
+      break;
+    
+    case 2048:
+      display = "i";
+      break;
+    
+    case 4096:
+      display = "k";
+      break;
+    
+    case 8192:
+      display = "e";
+      break;
+    
     case 16384:
-      display = "How You Like That";
+      display = "t";
+      break;
+      
+    case 32768:
+      display = "h";
+      break;
+      
+    case 65536:
+      display = "a";
+      break;
+      
+    case 131072:
+      display = "t";
+      break;
+      
+    case 262144:
+      display = "?";
+      break;
+      
+    case 524288:
+      display = "You";
+      break;
+      
+    case 1048576:
+      display = "gon'";
+      break;
+      
+    case 1048576:
+      display = "like";
+      break;
+      
+    case 2097152:
+      display = "that";
+      break;
+      
+    case 4194304:
+      display = "that";
+      break;
+      
+    case 8388608:
+      display = "that";
+      break;
+      
+    case 16777216:
+      display = "that";
+      break;
+      
+    case 33554432:
+      display = "that";
+      break;
+      
+    case 67108864:
+      display = "that that that, that";
       break;
 
     default:
