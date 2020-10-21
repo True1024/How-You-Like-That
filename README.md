@@ -1,3 +1,3 @@
-# How-You-Like-That
+# How You Like That
 
 Ha, how you like that?
